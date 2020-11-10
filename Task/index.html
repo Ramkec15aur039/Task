@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!--Google Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Font awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--External CSS file-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!--navigation-->
+
+    <nav class="navbar  navbar-expand-md navbar-light bg-light scrolling-navbar sticky" id="Home">
+        <!--"navbar" is a class of bootstrap 4. "navbar-expand-md" class will expand the unordered list when the device is medium-->
+        <a href="#" class="navbar-brand"><img src="./assets/logo.png"></a>
+        <!--"navbar-brand" class is used for styling logo/fixing the logo in correct possition-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#section2" class="nav-link">AboutUs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section3" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section4" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section5" class="nav-link">ContactUs</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--Section 1-->
+
+    <section class="wave" id="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img style="padding-top: 80px; float: left;" width="650px" height="600px" src="./assets/OBJECTS.png" alt="img-object" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="wave-content" style="padding-top: 80px; padding-left: 100px; color:white">Place to learn and prepare for future</h3>
+                    <p style="padding-left: 100px; color: white;">An app for complete classroom solutions</p>
+                    <button style="margin-left: 100px;" class="btn btn-danger">View more</button>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--Section 2-->
+
+    <div class="container AboutUs" id="section2">
+        <div class="row">
+            <div class="col-12">
+                <span class="span1">Innovative solutions</span>
+                <h1 class="A-H">About Us</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--Togglable tabs-->
+
+    <div class="container toggle-tabs">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="Who we are-tab" data-toggle="tab" href="#Who we are" role="tab"
+                            aria-controls="Who we are" aria-selected="true">Who we are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Why choose us-tab" data-toggle="tab" href="#Why choose us" role="tab"
+                            aria-controls="Why choose us" aria-selected="false">Why choose us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Vision-tab" data-toggle="tab" href="#Vision" role="tab"
+                            aria-controls="Vision" aria-selected="false">Vision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Mission-tab" data-toggle="tab" href="#Mission" role="tab"
+                            aria-controls="Mission" aria-selected="false">Mission</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="Who we are" role="tabpanel"
+                        aria-labelledby="Who we are-tab">
+                        <div class="container-fluid" id="Who we are">
+                            <div class="row padding">
+                                <div class="col-md-6 p-4">
+                                    <img src="./assets/Rectangle 192.png" alt="ongoing projects" class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2> An a app for a complete classroom solution</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos vel aliquam
+                                        repellat corrupti ad
+                                        eligendi placeat neque recusandae sunt quidem qui soluta sapiente iste
+                                        veritatis, animi, voluptas ex
+                                        illum?
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Learn more</a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Why choose us" role="tabpanel" aria-labelledby="Why choose us-tab">
+                        <div class="container-fluid" id="Why choose us">
+                            <div class="row padding">
+                                <div class="col-md-6 p-4">
+                                    <img src="./assets/images/ongoing_projects.jpeg" alt="ongoing projects"
+                                        class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2> Why choose us</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos vel aliquam
+                                        repellat corrupti ad
+                                        eligendi placeat neque recusandae sunt quidem qui soluta sapiente iste
+                                        veritatis, animi, voluptas ex
+                                        illum?
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Learn more</a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Vision" role="tabpanel" aria-labelledby="Vision-tab">
+                        <div class="container-fluid" id="Vision">
+                            <div class="row padding">
+                                <div class="col-md-6 p-4">
+                                    <img src="./assets/images/vision and mission.jpg" alt="ongoing projects"
+                                        class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2> Vision</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos vel aliquam
+                                        repellat corrupti ad
+                                        eligendi placeat neque recusandae sunt quidem qui soluta sapiente iste
+                                        veritatis, animi, voluptas ex
+                                        illum?
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Learn more</a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Mission" role="tabpanel" aria-labelledby="Mission-tab">
+                        <div class="container-fluid" id="Mission">
+                            <div class="row padding">
+                                <div class="col-md-6 p-4">
+                                    <img src="./assets/images/card2.jpeg" alt="ongoing projects" class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2> Mission</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quos vel aliquam
+                                        repellat corrupti ad
+                                        eligendi placeat neque recusandae sunt quidem qui soluta sapiente iste
+                                        veritatis, animi, voluptas ex
+                                        illum?
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Learn more</a>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Feature section-->
+    <div class="container-fluid features" id="section3">
+        <div class="row padding">
+            <div class="col-12 text-center">
+                <h2 style="font-weight: bolder;">Features</h2>
+            </div>
+        </div>
+        <div class="row padding" style="margin-left: 50px;">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 padding ">
+                <div class="card card-1" style="width: 18rem;">
+                    <i class="text-center"> <img src="./assets/Make your study through.png" alt="Card image cap"></i>
+                    <div class="card-body">
+                        <h5 class="card-title card-heading">Make your study through</h5>
+                        <p class="card-text card-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio tenetur velit deserunt ab
+                            autem nihil, amet ipsa facilis! Inventore architecto non dolorum quae earum perspiciatis
+                            fugit debitis? Tempore, officia sapiente!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 padding ">
+                <div class="card card-2" style="width: 18rem;">
+                    <i class="text-center"> <img src="./assets/Video Learning.png" alt="Card image cap"></i>
+                    <div class="card-body">
+
+                        <h5 class="card-title card-heading">Video Learning</h5>
+                        <p class="card-text card-paragraph">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam perferendis, esse at itaque
+                            saepe modi, eos mollitia necessitatibus cum voluptate maiores. Deleniti quas cum repellat
+                            doloribus eligendi, aliquid reiciendis iste?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 padding ">
+                <div class="card card-3" style="width: 18rem;">
+                    <i class="text-center"> <img src="./assets/Audio Learning.png" alt="Card image cap"></i>
+                    <div class="card-body">
+                        <h5 class="card-title card-heading">Audio Learning</h5>
+                        <p class="card-text card-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci asperiores unde quisquam,
+                            eaque maiores quod sint quaerat error repellendus necessitatibus, doloremque rem. Voluptates
+                            sint aliquid consequatur quibusdam molestiae quaerat est.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 padding ">
+                <div class="card card-4" style="width: 18rem;">
+                    <i class="text-center"> <img src="./assets/E-book Learning.png" alt="Card image cap"></i>
+                    <div class="card-body">
+                        <h5 class="card-title card-heading">E-book Learning</h5>
+                        <p class="card-text card-paragraph">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, natus mollitia? Vero hic
+                            recusandae natus ad, magni temporibus eveniet corrupti, ipsum veritatis blanditiis adipisci
+                            eligendi voluptatum delectus, assumenda iure eum!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 padding ">
+                <div class="card card-5" style="width: 18rem;">
+                    <i class="text-center"> <img src="./assets/Quiz.png" alt="Card image cap"></i>
+                    <div class="card-body">
+                        <h5 class="card-title card-heading">Quiz</h5>
+                        <p class="card-text card-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate suscipit, fugiat quas
+                            expedita tempore iste provident officia molestiae dicta repellat atque quia aspernatur
+                            corporis accusantium maiores! Nam optio recusandae officia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 padding ">
+                <div class="card card-6" style="width: 18rem;"">
+                    <i class=" text-center"> <img src="./assets/Online test and examination.png"
+                        alt="Card image cap"></i>
+                    <div class="card-body">
+                        <h5 class="card-title card-heading">Online test and examination</h5>
+                        <p class="card-text card-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sunt eveniet itaque
+                            laudantium repudiandae! Maiores ab ullam repellat unde eos nulla? Inventore, sed aut tempore
+                            totam voluptatibus aliquam eos harum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row demo">
+
+        </div>
+    </div>
+
+    <!--Price section-->
+    <div class="container-fluid pricing-section" id="section4">
+        <br>
+        <br>
+        <h2 style="text-align:center">Pricing Packages</h2>
+        <br>
+        <div class="columns">
+            <ul class="price">
+                <li class="header"> <i class=" text-center"> <img src="./assets/Basic.png" alt="Card image cap"></i>
+                    <h3 class="basic">Basic</h3>
+                    <h1 class="doller">$150</h1>
+                    <h5 class="month">Per Month</h5>
+                    <button class="price-button" type="button" class="btn btn-lg btn btn-primary">Select
+                        Plan</button>
+
+                </li>
+                <li>Make your study through</li>
+                <li>Video Learning</li>
+                <li>Audio Learning</li>
+                <li>E-book Learning</li>
+                <li>Quiz</li>
+                <li>Online test and examination</li>
+            </ul>
+        </div>
+
+        <div class="columns">
+            <ul class="price">
+                <li class="header"> <i class=" text-center"> <img src="./assets/Professional.png"
+                            alt="Card image cap"></i>
+                    <h3 class="basic">Pro</h3>
+                    <h1 class="doller">$650</h1>
+                    <h5 class="month">Per Month</h5>
+                    <button class="price-button" type="button" class="btn btn-lg btn btn-primary">Select
+                        Plan</button>
+
+                </li>
+                <li>Make your study through</li>
+                <li>Video Learning</li>
+                <li>Audio Learning</li>
+                <li>E-book Learning</li>
+                <li>Quiz</li>
+                <li>Online test and examination</li>
+            </ul>
+        </div>
+        <div class="columns">
+            <ul class="price">
+                <li class="header"> <i class=" text-center"> <img src="./assets/Premium.png" alt="Card image cap"></i>
+                    <h3 class="basic"> Premium </h3>
+                    <h1 class="doller">$750</h1>
+                    <h5 class="month">Per Month</h5>
+                    <button class="price-button" type="button" class="btn btn-lg btn btn-primary">Select
+                        Plan</button>
+
+                </li>
+                <li>Make your study through</li>
+                <li>Video Learning</li>
+                <li>Audio Learning</li>
+                <li>E-book Learning</li>
+                <li>Quiz</li>
+                <li>Online test and examination</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--Get in touch section-->
+    <div class="row get-section text-center p-5" id="section5">
+        <div class="col-12 text-center p-5">
+            <h1>Feel free to get in touch with us any convenient way</h1>
+            <p style="font-size: smaller; padding-top: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Odit neque,
+                praesentium id ipsum in maxime nobis obcaecati doloremque, quidem sunt quod numquam similique suscipit
+                aut laboriosam minus voluptas laudantium? Obcaecati!</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="material-icons google" style="font-size:55px;color:orangered">location_on</i>
+            <h3 style="padding-top: 20px;">Address</h3>
+            <hr class="line">
+            <P>19/21, Swaranapuri extn, 2nd Street, 15 velampalayam, Tiruppur-641652.</P>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fa fa-phone-square" style="font-size:55px;color:orangered"></i>
+            <h3 style="padding-top: 20px;">Business Phone</h3>
+            <hr class="line">
+            <P>+91 96299 38033</P>
+            <p>+91 9943109621</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+            <i class="material-icons google" style="font-size:55px;color:orangered">email</i>
+            <h3 style="padding-top: 20px;">General Enquires</h3>
+            <hr class="line">
+            <P>info@applogiq.in</P>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer id="section6">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <p style="color: white; font-size: x-small; padding-top: 30px; padding-bottom: 0;">Powered by</p>
+                    <p> <img  width="150px" height="30px" src="./assets/footer-logo.png"
+                            alt="footer-logo"></p>
+                    <p>
+                    <ul class="footer-ul">
+                        <li class="Ancor1"><a href="#Home">Home</a></li>
+                        <li class="Ancor2"><a href="#section2" class="Ancor">About Us</a></li>
+                        <li class="Ancor3"><a href="#section3" class="Ancor">Features</a></li>
+                        <li class="Ancor4"><a href="#section5" class="Ancor">Contact Us</a></li>
+                        <li class="Ancor5"><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Services</a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <hr style="background-color: white;">
+            <div class="row text-center">
+                <div class="col-6">
+                    <p style="color: white; font-size: smaller; float: left; padding-top: 10px;">&copy; studyQ2020.All rights are reserved</p>
+                </div>
+                <div class="col-6">
+                    <ul class="footer-ul" style="float: right;">
+                        <li> <a href="#"><img width="30px" height="20px" style="padding-left: 10px;" width="150px" height="30px" src="./assets/facebook.png" alt="footer-logo"></a></li>
+                        <li> <a href="#"><img width="30px" height="20px" style="padding-left: 10px;" width="150px" height="30px" src="./assets/linkedin.png" alt="footer-logo"></a></li>
+                        <li> <a href="#"><img width="30px" height="20px" style="padding-left: 10px;" width="150px" height="30px" src="./assets/twitter.png" alt="footer-logo"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
